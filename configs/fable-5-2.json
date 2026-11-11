@@ -1,0 +1,30 @@
+{
+  "name": "fable-5-2",
+  "source": "footage/IMG_5243.mov",
+  "work": "work/IMG_5243",
+  "output": "out/fable-5-2.mp4",
+
+  "format": {"width": 1920, "height": 1080, "fps": 30},
+  "prep": {"start": 0.65, "duration": 35.7, "grade": true},
+  "grade": {"yellow_desat": 0.5, "yellow_centre": 44, "mid_lift": 0.05},
+
+  "title": {"text": "FABLE 5.2", "end": 2.8, "fade": 0.4, "width_frac": 0.94, "top": 36},
+
+  "ocean": {
+    "in": 9.4, "out": 15.2, "wipe": 0.5,
+    "in_origins": [[250, 900], [1660, 830]],
+    "out_origins": [[200, 980], [1720, 930]],
+    "horizon": 600, "sun": [520, 250]
+  },
+
+  "props": [
+    {"kind": "star", "hand": "left", "enter": "fly", "at": 18.4, "fly_time": 0.267, "fly_from": [-160, 40], "offset": [15, -310]},
+    {"kind": "letter", "text": "B", "hand": "right", "enter": "pop", "at": 22.067, "offset": [20, -305]}
+  ],
+  "vanish": 24.533,
+
+  "sfx": {"enabled": true, "gain": 1.0},
+  "mix": {"speed": 1.25, "voice_gain": 1.0, "sfx_gain": 0.9, "loudnorm": true},
+  "encode": {"crf": 15, "preset": "slow"},
+  "seed": 7
+}

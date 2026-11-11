@@ -1,0 +1,26 @@
+# your footage and everything the pipeline writes stay on your machine
+footage/
+work/
+out/
+reference/
+*.mov
+*.mp4
+*.MOV
+*.MP4
+*.wav
+*.npy
+*.cube
+
+# compiled matte tool
+tools/matte
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editors and macOS
+.DS_Store
+.idea/
+.vscode/

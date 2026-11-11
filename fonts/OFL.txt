@@ -1,0 +1,5 @@
+Poppins (Poppins-Bold.ttf) is by the Indian Type Foundry and is licensed under the
+SIL Open Font License, Version 1.1. The full licence text is at
+https://openfontlicense.org and on https://fonts.google.com/specimen/Poppins/license.
+The font is bundled here only so the default title and letter props render out of the box.
+Use any .ttf you like by setting "font" in the config.
